@@ -1,0 +1,37 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/asof-polars-pandas.html",
+      "/blog/should-i-finetue-a-model.html"
+    ]
+  },
+  {
+    "listing": "/martin.html",
+    "items": [
+      "/blog/asof-polars-pandas.html",
+      "/blog/should-i-finetue-a-model.html",
+      "/til/genai-article-writer.html",
+      "/til/text-embedding-finetuning.html",
+      "/til/curl-default-verbs.html",
+      "/til/ingest-files-to-meilisearch.html",
+      "/til/transfer-files-with-curl.html",
+      "/til/secure-delete-ssd.html"
+    ]
+  },
+  {
+    "listing": "/til.html",
+    "items": [
+      "/til/ingest-files-to-meilisearch.html",
+      "/til/secure-delete-ssd.html",
+      "/til/transfer-files-with-curl.html",
+      "/til/curl-default-verbs.html",
+      "/til/genai-article-writer.html",
+      "/til/text-embedding-finetuning.html"
+    ]
+  },
+  {
+    "listing": "/categories/all-categories.html",
+    "items": []
+  }
+]

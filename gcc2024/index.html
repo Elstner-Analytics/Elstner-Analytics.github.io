@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Impressum – elstner.dev</title>
+<title>index – elstner.dev</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -68,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
@@ -78,69 +112,71 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#german-conference-on-cheminformatics-2024-gcc2024" id="toc-german-conference-on-cheminformatics-2024-gcc2024" class="nav-link active" data-scroll-target="#german-conference-on-cheminformatics-2024-gcc2024">German conference on cheminformatics 2024 (GCC2024)</a>
+  <ul class="collapse">
+  <li><a href="#document-annotation-dataset" id="toc-document-annotation-dataset" class="nav-link" data-scroll-target="#document-annotation-dataset">Document annotation dataset</a></li>
+  <li><a href="#prompts-to-handle-markush-formula" id="toc-prompts-to-handle-markush-formula" class="nav-link" data-scroll-target="#prompts-to-handle-markush-formula">Prompts to handle Markush formula</a></li>
+  <li><a href="#integration-into-a-pdf-handling-pipeline" id="toc-integration-into-a-pdf-handling-pipeline" class="nav-link" data-scroll-target="#integration-into-a-pdf-handling-pipeline">Integration into a pdf handling pipeline</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Impressum</h1>
+
+
+
+<section id="german-conference-on-cheminformatics-2024-gcc2024" class="level1">
+<h1>German conference on cheminformatics 2024 (GCC2024)</h1>
+<p>We will show some recent results on Poster 20 in the exhibition:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/gcc2024.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
 </div>
+<p>If you are interested in model creation for (Visual) Language Models in chemistry, data extraction with machine learning from reports or unstructured sources, want to get on speed with your dataset creation:</p>
+<a href="#" data-cal-link="martin-elstner/30min" data-cal-namespace="30min" data-cal-config="{&quot;layout&quot;:&quot;month_view&quot;}">Book a call.</a>
+<section id="document-annotation-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="document-annotation-dataset">Document annotation dataset</h2>
+<p>The <a href="https://huggingface.co/datasets/ElstnerAnalytics/chemical-documents">dataset</a> consists of around 1000 CC-BY-4.0 licensed open access paper pages and the annotations on-top are provided under the same license. Train, test and validation splits are provided as separate folders containing the image files and a single json file containing the annotations in COCO format.</p>
+<p>The classes are close to the TFT-ID dataset and extend into 3 chemistry specific labels. chem_reaction contains everything with reaction arrows, chem_structures are structural formulas without reactions and chem_table is used for tables containing structural formula.</p>
+<p>The dataset is also available on <a href="https://app.roboflow.com/elstner-analytics/ttfc/2">Roboflow</a>, allowing to directly convert the annotations into different formats. On the online platform, you can also easily inspect visually the annotations, adjust bounding boxes or remove classes.</p>
+<p>Potential issues are some overlaps of bounding boxes (in case of close up tables and figures), so if you want to train a custom model, check before, if this would be an issue and filter the images out or remove one class of labels. In our experiments, for YOLOv10 and YOLOv11 models, we don’t see negative impact from including them.</p>
+</section>
+<section id="prompts-to-handle-markush-formula" class="level2">
+<h2 class="anchored" data-anchor-id="prompts-to-handle-markush-formula">Prompts to handle Markush formula</h2>
+<p>Some visual language models (VLMs) didn’t allow to submit multiple images in a single turn, making single/few shot prompting with visual examples impossible. It’s not practical to show visual examples and ask for an analysis on a different image. As this is a very general issue, we assume that it will be addressed by model providers soon. Nevertheless, also from a cost perspective it is advisable to default to pure text prompts. The following is our attempt on a textual description on Markush formula and a usable fragment pattern in a SMILES/SMARTS notation:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">A</span> Markush formula may be drawn like: a phenyl ring with a substituent at arbitrary positions, labeled ‚R‘. The phenyl ring is connected to the linker ‚Y‘ with a single bond and ‚Y‘ is also connected to linker ‚W‘ with a single bond. ‚W‘ is the connected to one nitrogen of a piperazine ring with a single bond. The second nitrogen of the piperazine is connected to the group ‚A‘ with a single bond. The following properties of the mentioned placeholders apply:</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">A:</span> a substituted phenyl group,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">W:</span> a linear or branched alkaline group having 2 to 6 carbon atoms,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">Y:</span> the group NHCO or CONH</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">R:</span> a substituted phenyl group</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ex">A</span> valid example may be COc1ccccc1N4CCN<span class="er">(</span><span class="ex">CCCNC</span><span class="er">(</span><span class="ex">=O</span><span class="kw">)</span><span class="ex">c2ccccc2c3ccccc3</span><span class="kw">)</span><span class="ex">CC4</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ex">The</span> fragment ‚A‘ would be: COc1ccccc1<span class="pp">[</span><span class="ss">1*</span><span class="pp">]</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ex">the</span> piperazine fragment would be: <span class="pp">[</span><span class="ss">1*</span><span class="pp">]</span>N1CCN<span class="er">(</span><span class="ex">[2*]</span><span class="kw">)</span><span class="ex">CC1</span> ,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ex">the</span> linker ‚W‘ would be: <span class="pp">[</span><span class="ss">2*</span><span class="pp">]</span>CCC<span class="pp">[</span><span class="ss">3*</span><span class="pp">]</span>, and so on, such that fragments could be joined with a SMARTS pattern like <span class="pp">[</span><span class="ss">*:1</span><span class="pp">]</span>.<span class="pp">[</span><span class="ss">*:1</span><span class="pp">]</span><span class="op">&gt;&gt;</span><span class="pp">[</span><span class="ss">*:1</span><span class="pp">]</span>-<span class="pp">[</span><span class="ss">*:1</span><span class="pp">]</span>.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ex">Analyse</span> the provided picture of a Markush formula in the same way, extract all fragments and placeholders and summarise the properties for all placeholders.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This prompt can serve as a starting point for in context learning experiments for VLMs like GPT4o or Claude Opus. Add more examples to make it a few shot prompt or modify the fragmentation format, according to your needs. It works very well with Claude Opus 3.5 and at a slightly reduced accuracy with <a href="https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct">Qwen2-VL-7B-instruct</a>. If you need a very specific class of molecules, try to adjust the example backbone and functional groups accordingly.</p>
+<p>It’s also possible to extend the example for synthetic data generation (letting the model come up with potential and plausible Markush notations):</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Based</span> on the description of a Markush formula, come up with 100 plausible Markush formulas that would describe small molecule, drug like substances.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="integration-into-a-pdf-handling-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="integration-into-a-pdf-handling-pipeline">Integration into a pdf handling pipeline</h2>
+<p>Running a complete pipeline locally (24 core, 64GB RAM, L40 GPU) with a YOLOv11 image segmentation, no OCR on text fragments/paragraphs and <a href="https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct">Qwen2-VL-7B-instruct</a> allows to handle 5.5 pages per second (heavily depends on the image density, average over academic papers, for patents, throughput will be higher).</p>
+<p>Running a similar setup with serverless components on AWS will cost about 2 cents per page. If you run a single instance of the YOLOv11 model on sagemaker, around 6 pages per second can be annotated. For more throughput, parallelization from this setup is easily achieved.</p>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p><strong>Angaben gemäß § 5 TMG</strong></p>
-<p>Elstner Analytics GmbH<br>
-Am Gehege 9<br>
-09128 Chemnitz<br>
-Germany<br>
-</p>
-<p><strong>Vertreten durch:</strong></p>
-<p>Martin Elstner<br>
-Geschäftsführer</p>
-<p><strong>Kontakt:</strong></p>
-<p>E-Mail: impressum@elstner.dev</p>
-<!-- **Umsatzsteuer-ID:**
-
-Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: [Your VAT ID] -->
-<p><strong>Registereintrag:</strong></p>
-<p>Eintragung im Handelsregister.<br>
-Registergericht: Amtsgericht Chemnitz<br>
-Registernummer: 36534</p>
-<p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong></p>
-<p>Elstner Analytics GmbH<br>
-Martin Elstner<br>
-Am Gehege 9<br>
-09128 Chemnitz<br>
-</p>
-<p><strong>Haftungsausschluss:</strong></p>
-<p><strong>Haftung für Inhalte</strong></p>
-<p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
-<p>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>
-<p><strong>Haftung für Links</strong></p>
-<p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.</p>
-<p>Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
-<p><strong>Urheberrecht</strong></p>
-<p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.</p>
-<p>Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
-<p><strong>Datenschutzerklärung</strong></p>
-<p><a href="./privacy.html">privacy policy</a></p>
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -572,12 +608,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./privacy.html">
+    <a class="nav-link" href="../privacy.html">
 <p>Privacy</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link active" href="./impressum.html" aria-current="page">
+    <a class="nav-link" href="../impressum.html">
 <p>Impressum</p>
 </a>
   </li>  
